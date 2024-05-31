@@ -1,4 +1,4 @@
-let valor = prompt("¿Cuanto es tu valor?");
+let valor = prompt("¿Cuanto es tu salario?");
 let edad = prompt("¿Cuanto años has trabajado?");
 
 let r1 = valor < 2000 && edad >= 10;
