@@ -16,7 +16,7 @@ body {
 
 
 :root {
-    --fuentes-principales: roboto;
+    --fuentes-principales: "roboto";
 
     --tamaño-de-fuente-grande: 6.0rem;
     --tamaño-de-fuente-mediano: 2.5rem;
