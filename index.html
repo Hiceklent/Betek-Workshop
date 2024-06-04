@@ -1,15 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Workshop #1 - Holguer y Tati</title>
-    
-</head>
-<body>
-    <h1> Workshop #1</h1>
-    <h2>presentador: <span>Tatiana davila y Holguer Pinzon</span></h2>
-    <h3>Hola</h3>
-    <script src="ejercicio8.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Workshop #1 - Cockie Team</title>
+    <link rel="stylesheet" type="text/css" href="src/styles.css" />
+  </head>
+  <body class="cuerpo-principal">
+    <section class="section-del-cuerpo-principal">
+      <h1 class="titulo-principal">Betek Workshop #1</h1>
+      <h2 class="subtitulo-principal">
+        Presentado y desarrollado por Cockie Teams
+      </h2>
+
+      <div class="contenedor-de-cards">
+        <div class="fondo-de-la-card">
+          <div class="contenedor-de-imagen">
+            <img
+              src="src/template/images/WhatsApp Image 2024-05-31 at 12.20.53 PM.jpeg"
+              alt="Imagen de usuario"
+            />
+          </div>
+          <h3 class="nombre-del-estudiante">Tatiana Davila</h3>
+          <span class="ocupacion-del-estudiante">Estudiante Frontend</span>
+        </div>
+        <div class="fondo-de-la-card">
+          <div class="contenedor-de-imagen">
+            <img src="src/template/images/Hiphop.png" alt="Imagen de usuario" />
+          </div>
+          <h3 class="nombre-del-estudiante">Holguer Pinzon</h3>
+          <span class="ocupacion-del-estudiante">Estudiante Frontend</span>
+        </div>
+        <div class="fondo-de-la-card">
+          <div class="contenedor-de-imagen">
+            <img
+              src="src/template/images/WhatsApp Image 2024-05-31 at 12.21.39 PM.jpeg"
+              alt="Imagen de usuario"
+            />
+          </div>
+          <h3 class="nombre-del-estudiante">Daniela Araque</h3>
+          <span class="ocupacion-del-estudiante">Estudiante Frontend</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="segunda-section-del-cuerpo-principal">
+      <h1 class="titulo-principal">
+        Desarrollamos con <span class="texto-especial">JavaScript</span>
+        <br />los siguientes algoritmos.
+      </h1>
+
+      <div class="contenedor-de-la-seccion-de-ejercicios">
+        <div class="contenedor-de-el-user">
+          <div class="contenedor-de-imagen">
+            <img src="src/template/images/Hiphop.png" alt="Imagen de usuario" />
+          </div>
+          <h3 class="nombre-del-estudiante">Holguer Pinzon</h3>
+          <span class="ocupacion-del-estudiante">Estudiante Frontend</span>
+        </div>
+
+        <div class="contenedor-de-los-ejercicios">
+          <h1 class="titulo-principal">Ejercicio A.</h1>
+          <p class="descripcion-del-ejercicio">
+            De un operario se conoce su sueldo y años de antigüedad. Se pide
+            crear un programa que lea los datos de entrada y muestre en consola
+            el valor booleano de las siguientes comparaciones:
+          </p>
+
+          <form id="ingresoDeDatosEJ1" class="inputs-de-ejercicios">
+            <input type="number" id="salario" name="salario" placeholder="Cual es tu Salario?">
+            <input type="number" id="tiempoLaborado" name="tiempoLaborado" placeholder="Hace cuantos años trabajas?">
+        </form>
+
+          <article class="ariculo-de-ejercicios">
+            <h2>I.</h2>
+            <p>
+              ¿El sueldo es inferior a $2000 US y su antigüedad es igual o
+              superior a 10 años?
+            </p>
+            <div id="Respuesta1" class="ejercicio-respuesta">True</div>
+          </article>
+          <article class="ariculo-de-ejercicios">
+            <h2>II.</h2>
+            <p>
+              ¿El sueldo es inferior a $2000 US o su antigüedad es menor a 10
+              años
+            </p>
+            <div id="Respuesta2" class="ejercicio-respuesta">True</div>
+          </article>
+          <article class="ariculo-de-ejercicios">
+            <h2>III.</h2>
+            <p>¿El sueldo es mayor o igual a $2000 US?</p>
+            <div id="Respuesta3" class="ejercicio-respuesta">null</div>
+          </article>
+        </div>
+      </div>
+
+      <div class="contenedor-de-la-seccion-de-ejercicios">
+        <div class="contenedor-de-el-user">
+          <div class="contenedor-de-imagen">
+            <img src="src/template/images/Hiphop.png" alt="Imagen de usuario" />
+          </div>
+          <h3 class="nombre-del-estudiante">Holguer Pinzon</h3>
+          <span class="ocupacion-del-estudiante">Estudiante Frontend</span>
+        </div>
+
+        <div class="contenedor-de-los-ejercicios">
+          <h1 class="titulo-principal">Ejercicio B.</h1>
+          <p class="descripcion-del-ejercicio">
+            La tienda “Mis Zapatos” está de aniversario, por esta razón está
+            realizando un descuento del 50% para compras mayores o iguales a los
+            $100.000 COP. Se le pide realizar un algoritmo que reciba el valor
+            de una compra y muestre en consola el valor booleano que indique si
+            la compra recibe o no el descuento.
+          </p>
+
+          <form id="ingresoDeDatosEJ1" class="inputs-de-ejercicios">
+            <input type="number" id="valorDeCompra" name="ValorDeCompra" placeholder="Cual es el valor total de tu compra!?">
+            </form>
+          
+          <article class="ariculo-de-ejercicios">
+            <h2></h2>
+            <p id="validadorDeDescuentosP">
+                Digita el valor de tu compra para saber si tienes Descuentos
+            </p>
+            <div id="RespuestaEJB" class="ejercicio-respuesta"></div>
+          </article>
+     
+        </div>
+      </div>
+    </section>
+    <script type="module" src="src/javascripts/ejercicio1.js"></script>
+    <script type="module" src="src/javascripts/ejercicio2.js"></script>
+    <script type="module" src="src/javascripts/forms.js" defer></script>
+  </body>
 </html>
