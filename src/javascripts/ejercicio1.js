@@ -15,7 +15,7 @@ function actualizarResultadosEJA() {
     respuestaDivEJ1_3.innerText = "";
   } else {
     const r1 = num1 < 2000 && num2 >= 10;
-    const r2 = num1 < 2000 && num2 < 10;
+    const r2 = num1 < 2000 || num2 < 10;
     const r3 = num1 >= 2000;
 
     respuestaDivEJ1.innerText = r1 ? "True" : "False";
