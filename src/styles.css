@@ -145,7 +145,15 @@ body {
 
 .texto-especial {
     color: rgb(255, 196, 0);
-}   
+}  
+
+.texto-especial1 {
+    color: rgb(85, 5, 190);
+}
+
+.texto-especial2{
+    color: rgb(141, 56, 253);
+}
 
 .contenedor-de-la-seccion-de-ejercicios {
     display: flex;
