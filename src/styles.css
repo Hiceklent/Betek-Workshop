@@ -109,6 +109,7 @@ body {
 
 .fondo-de-la-card:hover {
     transform: translateY(-9px);
+    background-color: rgba(76, 2, 118, 0.1);
     box-shadow: 0 30px 50px rgba(148, 148, 148, 0.714);
 }
 
